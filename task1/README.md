@@ -4,6 +4,8 @@
 
 1. Install Docker on your machine. You can find the installation instructions [here](https://docs.docker.com/get-docker/).
    1. *EXTRA*: Attach a screenshot of the output of `docker --version` and `docker-compose --version`.
+   <img width="583" alt="Screen Shot 2022-12-16 at 7 21 23 PM" src="https://user-images.githubusercontent.com/77681346/208212567-aba9d7d1-6e8f-4be1-a6c5-b7b3a769ddff.png">
+
 
 ## 2. Create a Dockerfile
 
