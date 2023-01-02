@@ -12,6 +12,10 @@
 1. Create a Dockerfile image in the root of the repository. The image should compile the Golang program, and expose port 8080.
    1. *EXTRA*: Use a multi-stage build to reduce the size of the final image.
    2. *EXTRA*: Run the Docker image locally and test that it works. Attach a screenshot of the output.
+   
+<img width="1280" alt="Screen Shot 2023-01-01 at 8 23 06 PM" src="https://user-images.githubusercontent.com/77681346/210189614-c06fb43a-6753-4bf8-8dda-045854b3f820.png">
+<img width="1280" alt="Screen Shot 2023-01-01 at 8 23 14 PM" src="https://user-images.githubusercontent.com/77681346/210189619-28f19306-8573-4516-a4db-98e878df6ffd.png">
+
 
 ## 3. Create a docker-compose.yml
 
