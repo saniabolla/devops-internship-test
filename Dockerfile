@@ -1,23 +1,20 @@
-FROM golang:latest
-
-# Create the working directory
-WORKDIR /app
-
-# Copy the Go dependencies
-COPY go.mod .
-COPY go.sum .
-
-# Download the dependencies
-RUN go mod download
-
-# Copy the source code
-COPY *.go .
-
-# Build the Go program
-RUN go build -o /docker-adobe
-
-# Expose port 8080
-EXPOSE 8080
-
-# Run the Go program
-CMD ["/docker-adobe"]
+version: "3"
+services:
+  golang:
+    image:  docker-adobe
+    ports:
+      - "8080:8080"
+    environment:
+      ENABLE_DB: "true"
+      DB_HOST: mysql
+      DB_USER: root
+      DB_PASSWORD: password
+      DB_DATABASE: app_db
+    volumes:
+      - ./db/init:/docker-entrypoint-initdb.d
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3030:3030"
