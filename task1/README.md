@@ -24,6 +24,9 @@
    2. A service that runs a MySQL database (this service is not used yet, but will be used in the next task).
    3. *EXTRA*: Run the docker-compose locally and test that it works. Attach a screenshot of the output.
 
+<img width="1280" alt="Screen Shot 2023-01-01 at 8 57 04 PM" src="https://user-images.githubusercontent.com/77681346/210190517-3d130a95-5a1a-4f6d-9bbd-f58f8f5ac1c9.png">
+
+
 ## 4. Connect the application to the database
 
 1. Modify the docker-compose.yml file to connect the application to the database.
