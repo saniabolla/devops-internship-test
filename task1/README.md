@@ -51,3 +51,5 @@ volumes:
 1. Create a Docker Hub account if you don't have one already. It's free, and you can find the instructions [here](https://docs.docker.com/docker-hub/).
 2. Push the image to Docker Hub. You can find the instructions [here](https://docs.docker.com/docker-hub/repos/).
 3. Provide the link to the image in the README.md file.
+
+https://hub.docker.com/layers/saniabolla/docker-adobe/latest/images/sha256-5c0309c6d0dee6130a098f899072d4a77db501d60512d1efdab4924d9009a721?context=repo
