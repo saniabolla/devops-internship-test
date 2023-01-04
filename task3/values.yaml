@@ -1,0 +1,12 @@
+image:
+  repository: docker-adobe
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
+config:
+  APP_COLOR: blue
+  APP_MODIFICATION_TIME: 2021-01-01T00:00:00Z
+secret:
+  SUPER_SECRET_VALUE: "1234567890"
