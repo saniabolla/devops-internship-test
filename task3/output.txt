@@ -1,0 +1,8 @@
+"kubectl get pods" output
+NAME                            READY   STATUS    RESTARTS   AGE
+docker-adobe-746f86464b-s7bx5   0/1     Pending   0          30s
+
+"kubectl get services" output
+NAME           TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+docker-adobe   LoadBalancer   10.99.197.113   <pending>     80:31014/TCP   52s
+kubernetes     ClusterIP      10.96.0.1       <none>        443/TCP        17m
