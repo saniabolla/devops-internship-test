@@ -6,7 +6,7 @@ Create a Kubernetes cluster in your local machine using [kind](https://kind.sigs
 
 ## 2. Deploy the application
 
-1. Create a Kubernetes manifest file that deploys the application to the cluster.
+1. Create a Kubernetes manifest file that deploys the application to the cluster. --> in templates folder in task 3
    1. Create the manifest file in the `task3` directory.
    2. The manifest should contain a `Deployment` and a `Service` for the application.
    3. For the sake of simplicity, a `Deployment` and `Service` for the database are **not** required.
