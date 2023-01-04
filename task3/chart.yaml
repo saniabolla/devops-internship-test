@@ -1,0 +1,4 @@
+apiVersion: v2
+name: docker-adobe
+description: A Helm chart
+version: 0.1.0
